@@ -1,16 +1,41 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
 
-<head>
-	<title>Parcel Sandbox</title>
-	<meta charset="UTF-8" />
-</head>
+  <body>
+    <!-- 入力欄 -->
+    <div>
+      <input placeholder="Let's do it !!" />
+      <button>add</button>
+    </div>
+    <!-- 未完了のTodo -->
+    <div>
+      <ul>
+        <div>
+          <li>Todo1</li>
+          <button>complete</button>
+          <button>delete</button>
+        </div>
+        <div>
+          <li>Todo2</li>
+          <button>complete</button>
+          <button>delete</button>
+        </div>
+      </ul>
+    </div>
+    <!-- 完了したTodo -->
+    <div>
+      <ul>
+        <div>
+          <li>Todo</li>
+          <button>back</button>
+        </div>
+      </ul>
+    </div>
 
-<body>
-	<div id="app"></div>
-
-	<script src="src/index.js">
-	</script>
-</body>
-
+    <script src="src/index.js"></script>
+  </body>
 </html>
