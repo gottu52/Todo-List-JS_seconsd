@@ -1,3 +1,57 @@
 body {
   font-family: sans-serif;
+  margin: 0;
+}
+ul {
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+li {
+  font-size: 20px;
+  margin: 6px 0;
+}
+h1 {
+  margin-top: 0;
+  text-align: center;
+}
+.list-row {
+  display: flex;
+  align-items: center;
+}
+button {
+  margin-left: 12px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+button:hover {
+  background-color: pink;
+  color: white;
+  cursor: pointer;
+}
+.area {
+  margin: 8px;
+  border-radius: 8px;
+}
+.todo {
+  min-height: 200px;
+}
+#input-area {
+  background-color: yellow;
+  padding: 8px;
+}
+input {
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  padding: 2px 6px;
+}
+#incomplete-area {
+  padding: 0 16px;
+  background-color: skyblue;
+}
+#complete-area {
+  padding: 0 16px;
+  background-color: lightgreen;
 }

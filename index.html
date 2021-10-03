@@ -7,29 +7,26 @@
 
   <body>
     <!-- 入力欄 -->
-    <div>
-      <input placeholder="Let's do it !!" />
-      <button>add</button>
+    <div id="input-area" class="area">
+      <input placeholder="Let's do it !" id="add-text" />
+      <button id="add-button">add</button>
     </div>
     <!-- 未完了のTodo -->
-    <div>
-      <ul>
-        <div>
-          <li>Todo1</li>
-          <button>complete</button>
-          <button>delete</button>
-        </div>
-        <div>
-          <li>Todo2</li>
-          <button>complete</button>
-          <button>delete</button>
+    <div id="incomplete-area" class="todo area">
+      <h1>Do It</h1>
+      <ul id="incomplete-list">
+        <div class="list-row">
+          <li>Todo</li>
+          <button id="complete-button">complete</button>
+          <button id="delete-button">delete</button>
         </div>
       </ul>
     </div>
     <!-- 完了したTodo -->
-    <div>
-      <ul>
-        <div>
+    <div id="complete-area" class="todo area">
+      <h1>Congratulation!</h1>
+      <ul id="complete-list">
+        <div class="list-row">
           <li>Todo</li>
           <button>back</button>
         </div>
